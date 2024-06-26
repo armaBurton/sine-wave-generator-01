@@ -25,6 +25,7 @@ code {
   width: 200px;
   height: 200px;
   cursor: pointer;
+  caret-color: transparent;
 }
 
 #buttonWrapper{
