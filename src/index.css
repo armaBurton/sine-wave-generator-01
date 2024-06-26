@@ -36,17 +36,59 @@ code {
 }
 
 #blue{
-  background-color: blue;
+  /* lab(32.3, 79.19, -107.86) */
+  background-color: lab(from blue 5 a b);
+}
+
+#blue:hover{
+  background-color: lab(from blue l a b);
+}
+
+#blue:active{
+  background-color: lab(from blue 50 a b);
 }
 
 #red{
-  background-color: red;
+  /* lab(53.24, 80.09, 67.2) */
+  background-color: lab(from red 20 a b);
+}
+
+#red:hover{
+  /* lab(53.24, 80.09, 67.2) */
+  background-color: lab(from red l a b);
+}
+
+#red:active{
+  /* lab(53.24, 80.09, 67.2) */
+  background-color: lab(from red 70 a b);
 }
 
 #yellow{
-  background-color: yellow;
+  /* lab(97.14, -21.55, 94.48) */
+  background-color: lab(from yellow 50 a b);
+}
+
+#yellow:hover{
+  /* lab(97.14, -21.55, 94.48) */
+  background-color: lab(from yellow 75 a b);
+}
+
+#yellow:active{
+  /* lab(97.14, -21.55, 94.48) */
+  background-color: lab(from yellow 100 a b);
 }
 
 #green{
-  background-color: green;
+  /* lab(46.23, -51.7, 49.9) */
+  background-color: lab(from green 20 a b);
+}
+
+#green:hover{
+  /* lab(46.23, -51.7, 49.9) */
+  background-color: lab(from green l a b);
+}
+
+#green:active{
+  /* lab(46.23, -51.7, 49.9) */
+  background-color: lab(from green 60 a b);
 }
