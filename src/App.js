@@ -8,7 +8,8 @@ function App() {
 
     const freq = (value === "blue") ? 195.998 :
       (value === "yellow") ? 261.626 : 
-        (value === "red") ? 329.628 : 391.995;
+        (value === "red") ? 329.628 : 
+          (value === "green" ) ? 391.995 : 42;
 
     playOscillator(context.currentTime, context.currentTime + .42, freq)
   }
@@ -34,6 +35,7 @@ function App() {
         <button className="gamePad" onClick={(e) => handleClick(e)} value="red" id="red"></button>
         <button className="gamePad" onClick={(e) => handleClick(e)} value="yellow" id="yellow"></button>
         <button className="gamePad" onClick={(e) => handleClick(e)} value="green" id="green"></button>
+        <button className="losePad" onClick={(e) => handleClick(e)} value="lose" id="lose"></button>
       </div>
     </section>
   );
