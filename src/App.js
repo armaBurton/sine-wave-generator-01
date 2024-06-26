@@ -2,15 +2,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
-      <div className="button" id="blue"></div>
-      <div className="button" id="red"></div>
-      <div className="button" id="yellow"></div>
-      <div className="button" id="green"></div>
-    </div>
+    <section className="App">
+      <div id="buttonWrapper">
+        <button className="gamePad" id="blue"></button>
+        <button className="gamePad" id="red"></button>
+        <button className="gamePad" id="yellow"></button>
+        <button className="gamePad" id="green"></button>
+      </div>
+    </section>
   );
 }
 
