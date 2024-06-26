@@ -35,7 +35,7 @@ function App() {
         <button className="gamePad" onClick={(e) => handleClick(e)} value="red" id="red"></button>
         <button className="gamePad" onClick={(e) => handleClick(e)} value="yellow" id="yellow"></button>
         <button className="gamePad" onClick={(e) => handleClick(e)} value="green" id="green"></button>
-        <button className="losePad" onClick={(e) => handleClick(e)} value="lose" id="lose"></button>
+        <button className="gamePad" onClick={(e) => handleClick(e)} value="lose" id="lose"></button>
       </div>
     </section>
   );
